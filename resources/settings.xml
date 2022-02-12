@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<settings version="1">
+	<section id="script.reset_watchedstate">
+		<category id="32501" label="32501">
+			<group id="1" label="32507">
+				<setting help="32510" id="enable_separated" label="32508" type="boolean">
+					<level>0</level>
+					<default>false</default>
+					<control type="toggle"/>
+					<dependencies>
+						<dependency type="enable" setting="enable_single">false</dependency>
+					</dependencies>
+				</setting>
+				<setting help="32511" id="images" label="32502" type="boolean" parent="enable_separated">
+					<level>0</level>
+					<default>false</default>
+					<control type="toggle"/>
+					<dependencies>
+						<dependency type="enable" setting="enable_separated">true</dependency>
+					</dependencies>
+				</setting>
+				<setting help="32512" id="actor" label="32503" type="boolean" parent="images">
+					<level>0</level>
+					<default>false</default>
+					<control type="toggle"/>
+					<dependencies>
+						<dependency type="enable" setting="images">true</dependency>
+					</dependencies>
+				</setting>
+				<setting help="32513" id="overwrite" label="32504" type="boolean" parent="enable_separated">
+					<level>0</level>
+					<default>false</default>
+					<control type="toggle"/>
+					<dependencies>
+						<dependency type="enable" setting="enable_separated">true</dependency>
+					</dependencies>
+				</setting>
+			</group>
+			<group id="2" label="32506">
+				<setting help="32514" id="enable_single" label="32509" type="boolean">
+					<level>0</level>
+					<default>false</default>
+					<control type="toggle"/>
+					<dependencies>
+						<dependency type="enable" setting="enable_separated">false</dependency>
+					</dependencies>
+				</setting>
+				<setting id="path" type="path" label="32505" help="32515" parent="enable_single">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<control type="button" format="path">
+						<heading>32505</heading>
+					</control>
+					<dependencies>
+						<dependency type="enable" setting="enable_single">true</dependency>
+					</dependencies>
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

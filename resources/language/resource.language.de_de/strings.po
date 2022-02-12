@@ -1,0 +1,75 @@
+# Kodi Media Center language file
+# Addon Name: Reset Watchedstate
+# Addon id: script.reset_watchedstate
+# Addon Provider: Team Kodi
+
+msgid ""
+msgstr ""
+
+msgctxt "#32001"
+msgid "The add-on did not run. Please check the output and your settings:\n"
+msgstr "Fehler: Prüfe die Ausgabe und die Einstellungen."
+
+msgctxt "#32002"
+msgid "You haven't enabled any setting for either exporting to separated or single files. Please setup the addon first."
+msgstr "Es wurde keine der Einstellungen, um zu entscheiden ob separate oder einzelne Dateien exportiert werden sollen, aktiviert. Konfiguriere zuerst das Add-on."
+
+msgctxt "#32501"
+msgid "Options"
+msgstr "Optionen"
+
+msgctxt "#32502"
+msgid "Export poster and fanart"
+msgstr "Exportiere Cover und Hintergrundbilder"
+
+msgctxt "#32503"
+msgid "Export actor-thumbs"
+msgstr "Exportiere Schauspieler Thumbs"
+
+msgctxt "#32504"
+msgid "Overwrite existing files"
+msgstr "Überschreibe existierende Dateien"
+
+msgctxt "#32505"
+msgid "Path"
+msgstr "Pfad"
+
+msgctxt "#32506"
+msgid "Single file"
+msgstr "Einzelne Datei"
+
+msgctxt "#32507"
+msgid "Separated files"
+msgstr "Separate Dateien"
+
+msgctxt "#32508"
+msgid "Enable exporting of separated files"
+msgstr "Aktiviere den Export separater Dateien"
+
+msgctxt "#32509"
+msgid "Enable exporting to a single file"
+msgstr "Aktiviere den Export einer einzelnen Dateien"
+
+msgctxt "#32510"
+msgid "While this settings is enabled you are not able to export your library to a single file. Hence the setting for it below is deactivated. Exporting the library to separated files is the recommended method."
+msgstr "Wenn diese Einstellung aktiviert ist, kannst du nicht zu einzelnen Dateien exportieren. Daher ist das Setting unten deaktiviert. Ein Export in separate Dateien ist die empfohlene Methode."
+
+msgctxt "#32511"
+msgid "Enabling this setting will export poster and fanart as well."
+msgstr "Wenn diese Einstellung aktiviert ist, werden Cover und Hintergrundbilder ebenfalls exportiert."
+
+msgctxt "#32512"
+msgid "Enabling this setting will export actor-thumbs as well."
+msgstr "Wenn diese Einstellung aktiviert ist, werden Schauspieler-Thumbs ebenfalls exportiert"
+
+msgctxt "#32513"
+msgid "Enabling this setting will allow to overwrite existing files. This might be useful if you want to update your local NFOs or previously exported images (poster, fanart, actor-thumbs)."
+msgstr "Wenn diese Einstellung aktiviert ist, können existierende Dateien überschrieben werden. Das kann hilfreich sein, wenn du deine lokalen NFO-Dateien oder deine Bilder (Cover, Hintergrundbilder, Schauspieler-Thumbs) aktualisieren möchtest."
+
+msgctxt "#32514"
+msgid "While enabling this setting, you are not able to export to separated files. Hence the setting for it above is disabled. This method is not recommended unless you have a good reason to do so. Please have a look at the wiki for further explanations: https://kodi.wiki/view/Import-export_library/Video#Single_File"
+msgstr "Wenn diese Einstellung aktiviert ist, kannst du nicht zu separaten Dateien exportieren. Daher ist die Einstellung oben deaktiviert. Diese Methode ist nicht die empfohlene. Es sei denn du hast einen guten Grund dafür. Siehe auch unser Wiki: https://kodi.wiki/view/Import-export_library/Video#Single_File"
+
+msgctxt "#32515"
+msgid "Select the folder to which the exported XML-file will be written to."
+msgstr "Wähle den Ordner in welchen die Datei geschrieben werden soll."

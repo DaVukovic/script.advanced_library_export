@@ -1,0 +1,75 @@
+# Kodi Media Center language file
+# Addon Name: Reset Watchedstate
+# Addon id: script.reset_watchedstate
+# Addon Provider: Team Kodi
+
+msgid ""
+msgstr ""
+
+msgctxt "#32001"
+msgid "Error. Please check the output and your settings:\n"
+msgstr ""
+
+msgctxt "#32002"
+msgid "You haven't enabled any setting for either exporting to separated or single files. Please setup the addon first."
+msgstr ""
+
+msgctxt "#32501"
+msgid "Options"
+msgstr ""
+
+msgctxt "#32502"
+msgid "Export poster and fanart"
+msgstr ""
+
+msgctxt "#32503"
+msgid "Export actor-thumbs"
+msgstr ""
+
+msgctxt "#32504"
+msgid "Overwrite existing files"
+msgstr ""
+
+msgctxt "#32505"
+msgid "Path"
+msgstr ""
+
+msgctxt "#32506"
+msgid "Single file"
+msgstr ""
+
+msgctxt "#32507"
+msgid "Separated files"
+msgstr ""
+
+msgctxt "#32508"
+msgid "Enable exporting of separated files"
+msgstr ""
+
+msgctxt "#32509"
+msgid "Enable exporting to a single file"
+msgstr ""
+
+msgctxt "#32510"
+msgid "While this settings is enabled you are not able to export your library to a single file. Hence the setting for it below is deactivated. Exporting the library to separated files is the recommended method."
+msgstr ""
+
+msgctxt "#32511"
+msgid "Enabling this setting will export poster and fanart. It's mandatory to enable this setting in order to export actor-thumbs."
+msgstr ""
+
+msgctxt "#32512"
+msgid "Enabling this setting will export actor-thumbs. To be able to export them, you have to enable the 'Export poster and fanart'-setting."
+msgstr ""
+
+msgctxt "#32513"
+msgid "Enabling this setting will allow overwriting existing files. This might be useful if you want to update your local NFOs or previously exported images (poster, fanart, actor-thumbs)."
+msgstr ""
+
+msgctxt "#32514"
+msgid "While enabling this setting, you are not able to export to separated files. Hence the setting for it above is disabled. This method is not recommended unless you have a good reason to do so. Please have a look at the wiki for further explanations: https://kodi.wiki/view/Import-export_library/Video#Single_File"
+msgstr ""
+
+msgctxt "#32515"
+msgid "Select the folder to which the exported XML-file will be written to."
+msgstr ""
